@@ -11,5 +11,9 @@ export class SearchBarComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  onType(event:KeyboardEvent)
+  {
+    console.log("User Typed "+event.key);
+    
+  }
 }
